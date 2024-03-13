@@ -1,3 +1,9 @@
+const inviteToPlay = document.querySelector('.invite')
+
+setTimeout(() => {
+    inviteToPlay.innerHTML = 'Hey, Dev! Vamos jogar?'
+}, 2000);
+
 const textResult = document.querySelector('.result')
 const humanScore = document.querySelector('#human-score')
 const machineScore = document.querySelector('#machine-score')

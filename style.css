@@ -9,8 +9,16 @@ body {
     background: url("//source.unsplash.com/1600x900/?landscape");
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.invite {
+    position: relative;
+    bottom: 73px;
+    color: #f2f2f2;
+    transition: all 0.3s ease;
 }
 
 .container {
